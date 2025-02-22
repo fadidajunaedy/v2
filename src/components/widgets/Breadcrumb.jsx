@@ -7,7 +7,6 @@ const Breadcrumb = () => {
   const pathnames = location.pathname.split("/").filter((x) => x);
   const pathBefore = pathnames.slice(0, -1);
 
-  console.log(pathBefore);
   return (
     <div className="breadcrumb mb-2">
       <div className="flex items-center gap-2">

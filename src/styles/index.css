@@ -153,5 +153,5 @@ h3 {
 }
 
 .md-container img {
-  @apply border border-white rounded-lg my-4;
+  @apply rounded-xl my-4;
 }
