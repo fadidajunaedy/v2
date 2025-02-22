@@ -23,7 +23,7 @@ const Projects = () => {
                   {String(index + 1).padStart(3, "0")}.
                 </span>
                 <p className="text-white">{project.title}</p>
-                <span className="self-end mb-1 border-b border-dashed border-[var(--color-grey)] group-hover:text-white flex-grow"></span>
+                <span className="self-end mb-1 border-b border-dashed border-[var(--color-grey)] group-hover:text-white flex-grow -translate-y-[0.05rem]"></span>
                 <p className="text-xs sm:text-sm text-right group-hover:text-white">
                   {project.year}
                 </p>

@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
 import FileResume from "../../assets/pdf/FADIDA_JUNAEDY_RESUME_2025.pdf";
-import { MdArrowOutward } from "react-icons/md";
-import Eyes from "../../assets/images/eyes.webp";
 
 const Header = () => {
   return (
@@ -14,7 +12,9 @@ const Header = () => {
             className="w-12 aspect-square object-cover rounded-lg overflow-hidden"
           />
           <div>
-            <p className="text-[var(--color-white)]">Fadida Junaedy</p>
+            <p className="text-[var(--color-white)] font-semibold">
+              Fadida Junaedy
+            </p>
             <p>Full Stack Web Developer</p>
           </div>
         </div>
@@ -30,7 +30,6 @@ const Header = () => {
           >
             My Resume
           </a>
-          {/* <img src={Eyes} className="w-6" /> */}
         </nav>
       </div>
     </header>
