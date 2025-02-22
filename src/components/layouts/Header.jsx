@@ -14,7 +14,7 @@ const Header = () => {
             className="w-12 aspect-square object-cover rounded-lg overflow-hidden"
           />
           <div>
-            <p className="text-[var(--color-white)]">Fadida Zanetti Junaedy</p>
+            <p className="text-[var(--color-white)]">Fadida Junaedy</p>
             <p>Full Stack Web Developer</p>
           </div>
         </div>

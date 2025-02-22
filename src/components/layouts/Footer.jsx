@@ -7,9 +7,7 @@ const Footer = () => {
         <p className="flex items-center gap-2">
           From Jakarta with <PiCoffeeBold />
         </p>
-        <p className="flex items-center gap-2">
-          &copy;2025 Fadida Zanetti Junaedy
-        </p>
+        <p className="flex items-center gap-2">&copy;2025 Fadida Junaedy</p>
       </div>
     </footer>
   );
