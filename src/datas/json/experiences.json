@@ -1,0 +1,46 @@
+[
+  {
+    "place": "Madani Berkelanjutan",
+    "status": "Internship",
+    "type": "Hybrid",
+    "period": "08/2024 - 01/2025",
+    "role": "Full Stack Web Developer",
+    "description": null,
+    "achievements": [
+      "Reconstructed the website by changing the technology from Laravel to React.js.",
+      "Increased the performance score from 49 to 84 and the accessibility score from 84 to 91.",
+      "Developing REST API using Node.js (Express) and MySQL.",
+      "Developed HRIS (Human Resource Information System) web application, helping to automate manual processes."
+    ],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "MySQL",
+      "REST API"
+    ]
+  },
+  {
+    "place": "LSP Geospasial",
+    "status": "Freelance",
+    "type": "Remote",
+    "period": "04/2024 - 05/2024",
+    "role": "Front End Web Developer",
+    "description": null,
+    "achievements": [
+      "Create UI for initial assessment application.",
+      "Integrate the REST API of the backend for data connection"
+    ],
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "React JS",
+      "REST API"
+    ]
+  }
+]

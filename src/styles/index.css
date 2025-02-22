@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #171616;
+  --color-dark-2: #1f1f1f;
+  --color-grey: #aba9a7;
+  --color-light: #fffdf7;
+  --color-line: #ffffff;
+  --color-accent: #ff5112;
+}
+
+@font-face {
+  font-family: "Georgia Regular";
+  src: url("/assets/fonts/Georgia-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TiemposFine";
+  src: url("/assets/fonts/TestTiemposFine-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/assets/fonts/TestTiemposHeadline-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TiemposText";
+  src: url("/assets/fonts/TestTiemposText-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/assets/fonts/CommitMono-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Inter", serif;
+  background-color: #171616;
+  color: var(--color-grey);
+  @apply text-xs sm:text-sm md:text-base leading-loose;
+}
+
+.header {
+  background: rgb(23, 22, 22);
+  background: linear-gradient(
+    0deg,
+    rgba(23, 22, 22, 0) 0%,
+    rgba(23, 22, 22, 1) 90%
+  );
+}
+
+.header {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.header .active {
+  @apply font-semibold text-white;
+}
+
+section {
+  @apply w-full flex justify-center items-center;
+}
+
+.container {
+  @apply max-w-[680px] mx-auto px-4 md:px-0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia Regular";
+  color: var(--color-light);
+}
+
+h1 {
+  @apply text-xl sm:text-2xl md:text-3xl;
+}
+
+h2 {
+  @apply text-lg sm:text-xl md:text-2xl;
+}
+
+h3 {
+  @apply text-base sm:text-lg md:text-xl;
+}
+
+.btn-download-resume {
+  @apply flex justify-center items-center gap-2 bg-accent text-white py-1 px-2 rounded-xl;
+}
+
+#projects li .icon {
+  width: 0;
+  margin-right: -0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#projects li:hover .icon {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+/* MD CONTENT */
+.md-container {
+  @apply w-full max-w-[680px] mx-auto flex flex-col gap-2 md:gap-4 px-4 lg:px-0 py-12 md:pt-48 md:pb-12;
+}
+
+.md-container h2 {
+  @apply mt-4 md:mt-8;
+}
+
+.md-container h3 {
+  @apply mt-3 md:mt-6;
+}
+
+.md-container h4 {
+  @apply mt-2 md:mt-4;
+}
+
+.md-container h5 {
+  @apply mt-2;
+}
+
+.md-container a {
+  @apply underline;
+}
+
+.md-container .breadcrumb a {
+  @apply no-underline;
+}
+
+.md-container ul {
+  @apply list-disc flex flex-col gap-2 ml-8;
+}
+
+.md-container ol {
+  @apply list-decimal flex flex-col gap-4 ml-8;
+}
+
+.md-container img {
+  @apply border border-white rounded-lg my-4;
+}

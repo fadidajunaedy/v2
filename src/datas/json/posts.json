@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Internship Experience: Full Stack Web Developer at an Environmental NGO",
+    "headline": "How It Felt Interning at an Environmental NGO",
+    "topic": "Thoughts",
+    "featured": false,
+    "published_at": "18/02/2025",
+    "file_content": "18022025"
+  },
+  {
+    "title": "Learning on My Own",
+    "headline": "The Quiet Journey of Self-Taught Web Development.",
+    "topic": "Thoughts",
+    "featured": true,
+    "published_at": "10/11/2024",
+    "file_content": "10112024"
+  },
+  {
+    "title": "How I Ended Up Choosing Web Development",
+    "headline": "How Web Development Became My Passion Despite the Odds.",
+    "topic": "Thoughts",
+    "featured": true,
+    "published_at": "14/07/2024",
+    "file_content": "14072024"
+  }
+]
