@@ -25,7 +25,7 @@ const Projects = () => {
                   <span className="group-hover:text-[var(--color-white)] group-hover:font-bold">
                     {String(index + 1).padStart(3, "0")}.
                   </span>
-                  <p className="group-hover:text-white">{project.title}</p>
+                  <p className="text-white">{project.title}</p>
                   <span className="self-end mb-1 border-b border-dashed border-[var(--color-grey)] group-hover:text-white flex-grow"></span>
                   <p className="text-xs sm:text-sm text-right group-hover:text-white">
                     {project.year}
