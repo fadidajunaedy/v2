@@ -145,11 +145,11 @@ h3 {
 }
 
 .md-container ul {
-  @apply list-disc flex flex-col gap-2 ml-8;
+  @apply list-disc flex flex-col gap-2 ml-4 md:ml-8;
 }
 
 .md-container ol {
-  @apply list-decimal flex flex-col gap-4 ml-8;
+  @apply list-decimal flex flex-col gap-4 ml-4 md:ml-8;
 }
 
 .md-container img {
