@@ -15,7 +15,7 @@ const Header = () => {
           />
           <div>
             <p className="text-[var(--color-white)]">Fadida Zanetti Junaedy</p>
-            <p className="text-sm">Full Stack Web Developer</p>
+            <p>Full Stack Web Developer</p>
           </div>
         </div>
         <nav className="flex items-center gap-6">
