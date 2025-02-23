@@ -9,6 +9,20 @@
   --color-light: #fffdf7;
   --color-line: #ffffff;
   --color-accent: #ff5112;
+
+  --animate-fade-up: fadeUp 0.5s ease-in-out;
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    ,
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 @font-face {
@@ -46,6 +60,10 @@
   font-style: normal;
 }
 
+* {
+  @apply animate-fade-up;
+}
+
 body {
   font-family: "Inter", serif;
   background-color: #171616;
@@ -73,6 +91,11 @@ body {
 section {
   @apply w-full flex justify-center items-center;
 }
+
+/* section,
+.md-container {
+  @apply animate-fade-up;
+} */
 
 .container {
   @apply max-w-[680px] mx-auto px-4 md:px-0;
