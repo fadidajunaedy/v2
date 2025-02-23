@@ -64,6 +64,11 @@
   @apply animate-fade-up;
 }
 
+html,
+body {
+  @apply animate-none;
+}
+
 body {
   font-family: "Inter", serif;
   background-color: #171616;
