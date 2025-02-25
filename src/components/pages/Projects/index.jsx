@@ -27,7 +27,7 @@ const Projects = () => {
                   </span>
                   <p className="text-white">{project.title}</p>
                   <span className="self-end mb-1 border-b border-dashed border-[var(--color-grey)] group-hover:text-white flex-grow -translate-y-[0.05rem]"></span>
-                  <p className="text-xs sm:text-sm text-right group-hover:text-white">
+                  <p className="text-xs sm:text-sm text-right group-hover:text-white italic">
                     {project.year}
                   </p>
                 </Link>

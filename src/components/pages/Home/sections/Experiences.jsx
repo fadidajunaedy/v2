@@ -13,13 +13,28 @@ const Experiences = () => {
             >
               <div className="flex items-center gap-2">
                 <div className="flex-grow">
-                  <p className="text-white">{experience.place}</p>
-                  <p className="text-xs sm:text-sm">{experience.role}</p>
+                  <p className="text-white font-medium">
+                    {experience.role}{" "}
+                    <span className="text-grey">
+                      — {experience.status}, {experience.type}
+                    </span>
+                  </p>
                 </div>
-                <p className="text-xs sm:text-sm text-right">
+                <p className="text-xs sm:text-sm text-right italic">
                   {experience.period}
                 </p>
               </div>
+              <div className="flex justify-between items-center gap-2">
+                <p className="text-xs sm:text-sm">{experience.place}</p>
+                <p className="text-xs sm:text-sm text-right italic">
+                  {experience.location}
+                </p>
+              </div>
+              <ul className="list-disc text-xs sm:text-sm leading-loose ml-4">
+                {experience.achievements.map((achievement, index) => (
+                  <li key={index}>{achievement}</li>
+                ))}
+              </ul>
             </li>
           ))}
         </ul>

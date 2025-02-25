@@ -13,13 +13,13 @@ const Educations = () => {
             >
               <div className="flex items-center gap-2">
                 <div className="flex-grow">
-                  <p className="text-white">{education.place}</p>
-                  <p className="text-xs sm:text-sm">{education.title}</p>
+                  <p className="text-white">{education.title}</p>
                 </div>
-                <p className="text-xs sm:text-sm text-right">
+                <p className="text-xs sm:text-sm text-right italic">
                   {education.period}
                 </p>
               </div>
+              <p className="text-xs sm:text-sm">{education.place}</p>
             </li>
           ))}
         </ul>

@@ -23,12 +23,16 @@ const Certifications = () => {
                   className="transition-all duration-300 ease-in-out w-0 group-hover:w-auto group-hover:mr-4 group-hover:text-accent"
                 />
                 <div className="flex-grow">
-                  <p className="text-white">{certification.publisher}</p>
-                  <p className="text-xs sm:text-sm">{certification.title}</p>
+                  <div className="flex justify-between items-center gap-2">
+                    <p className="text-white">{certification.title}</p>
+                    <p className="text-xs sm:text-sm text-right italic">
+                      {certification.date}
+                    </p>
+                  </div>
+                  <p className="text-xs sm:text-sm">
+                    {certification.publisher}
+                  </p>
                 </div>
-                <p className="text-xs sm:text-sm text-right">
-                  {certification.date}
-                </p>
               </a>
             </li>
           ))}
