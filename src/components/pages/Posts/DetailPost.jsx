@@ -8,9 +8,8 @@ const DetailPost = () => {
   const { key } = useParams();
 
   useEffect(() => {
-    // Impor dinamis file Markdown berdasarkan key
     import(`../../../datas/md/posts/${key}.md`)
-      .then((module) => setMarkdownContent(module.default)) // Simpan konten ke state
+      .then((module) => setMarkdownContent(module.default))
       .catch((error) => console.error("Error loading markdown:", error));
   }, [key]);
   return (

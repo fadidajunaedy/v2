@@ -145,7 +145,7 @@ h3 {
 
 /* MD CONTENT */
 .md-container {
-  @apply w-full max-w-[680px] mx-auto flex flex-col gap-2 md:gap-4 px-4 lg:px-0 py-12 md:pt-48 md:pb-12;
+  @apply w-full max-w-[680px] min-h-[90vh]  mx-auto flex flex-col gap-2 md:gap-4 px-4 lg:px-0 py-12 md:pt-48 md:pb-12;
 }
 
 .md-container h2 {

@@ -1,4 +1,4 @@
-# Case Study: DreamCost Application
+# DreamCost
 
 ## Overview
 

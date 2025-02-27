@@ -33,9 +33,11 @@ const Posts = () => {
                     className="transition-all duration-300 ease-in-out w-0 group-hover:w-auto group-hover:mr-4 group-hover:text-accent"
                   />
                   <div className="flex-grow">
-                    <div className="flex justify-between items-center gap-2">
-                      <p className="text-white line-clamp-2">{post.title}</p>
-                      <p className="text-xs sm:text-sm text-right italic">
+                    <div className="flex justify-between gap-2">
+                      <p className="text-white line-clamp-2 self-start">
+                        {post.title}
+                      </p>
+                      <p className="text-xs sm:text-sm text-right italic self-start mt-1">
                         {post.published_at}
                       </p>
                     </div>

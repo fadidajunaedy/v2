@@ -1,4 +1,4 @@
-# Case Study: Natask - Empowering to Streamline Task Management.
+# Natask
 
 ## Overview
 
