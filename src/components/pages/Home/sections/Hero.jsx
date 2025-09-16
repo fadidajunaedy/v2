@@ -15,12 +15,14 @@ const Hero = () => {
           />
         </h2>
         <p>
-          Hi, I'm Fadida, a Bachelor of Computer Science in Informatics
-          Engineering and a{" "}
-          <span className="underline text-white">Full Stack Web Developer</span>{" "}
-          with hands-on experience in web development using React.js and
-          Node.js. Always open to learn new tools and frameworks that can bring
-          value to a project.
+          Hi, I'm Junaedy, Bachelor of Computer Science in Informatics
+          Engineering, currently working as a{" "}
+          <span className="underline text-white">
+            Software Quality Assurance Tester
+          </span>{" "}
+          in the banking sector (Bank Syariah Indonesia), with a background as a
+          Full Stack Web Developer. I am now learning Python to pursue a career
+          path as a QA Automation Engineer.
         </p>
 
         <h2 className="mt-6 md:mt-12 mb-3 md:mb-6">Contact</h2>
