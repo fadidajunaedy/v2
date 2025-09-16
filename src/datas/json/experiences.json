@@ -1,5 +1,16 @@
 [
   {
+    "place": "Bank Syariah Indonesia",
+    "status": "Contract",
+    "type": "On Site",
+    "period": "04/2025 - Now",
+    "location": "Central Jakarta, DKI Jakarta",
+    "role": "Software Quality Assurance Tester",
+    "description": null,
+    "achievements": [],
+    "tech_stack": ["Manual Testing", "Regression Testing", "API Testing"]
+  },
+  {
     "place": "Madani Berkelanjutan",
     "status": "Internship",
     "type": "Hybrid",
@@ -8,10 +19,10 @@
     "role": "Full Stack Web Developer",
     "description": null,
     "achievements": [
-      "Reduced code complexity and improved maintainability, resulting in fewer bugs and faster development of new features, by migrating the website from Laravel to React.js and implementing a modular architecture.",
-      "Improved website performance scores from 49% to 84% (Lighthouse Insights) by implementing lazy loading, image compression, and code optimization techniques.",
-      "Ensured smooth communication between front-end and back-end systems, eliminating communication errors and speeding up response times, by developing and implementing a RESTful API using Node.js (Express) and MySQL.",
-      "Automating previously manual HR processes, significantly saving time and reducing human error, by building a web-based Human Resource Information System (HRIS) application."
+      "Reduced code complexity and improved maintainability, resulting in fewer bugs and faster feature development, by migrating the website from Laravel to React.js and implementing a modular architecture.",
+      "Increased website performance score from 49% to 84% (Lighthouse Insights) by applying lazy loading, image compression, and code optimization techniques.",
+      "Ensured seamless integration between front-end and back-end systems, reducing communication errors and improving response time, by developing and implementing RESTful APIs using Node.js (Express) and MySQL.",
+      " Automated previously manual HR processes, significantly saving time and minimizing human errors, by building a web-based Human Resource Information System (HRIS)."
     ],
     "tech_stack": [
       "HTML",
@@ -34,8 +45,8 @@
     "role": "Front End Web Developer",
     "description": null,
     "achievements": [
-      "Achieved smooth API integration, demonstrated through efficient data flow and minimal errors, by partnering with the backend developer to grasp the API structure, tailor data needs, and resolve potential integration challenges.",
-      "Accelerate the collection of assessment data for assessors by increasing efficiency and ease of process through the development of initial assessment applications."
+      "Integrated APIs with efficient and error-minimized data flow, through collaboration with backend developers to understand API structures, align data requirements, and resolve integration challenges.",
+      " Accelerated the data collection process for assessors, by improving efficiency and ease of use through the development of a preliminary assessment application."
     ],
     "tech_stack": [
       "HTML",
