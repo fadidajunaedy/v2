@@ -7,7 +7,7 @@ const Header = () => {
       <div className="w-full mx-auto flex flex-col md:flex-row justify-between md:items-center gap-6 p-4 md:p-6">
         <div className="flex items-center gap-4">
           <img
-            src="https://res.cloudinary.com/dapi855px/image/upload/v1739853706/photo/1739853703381.jpg"
+            src="https://res.cloudinary.com/dapi855px/image/upload/v1758013542/WhatsApp_Image_2025-09-13_at_1.16.42_PM_xdpyjn.jpg"
             alt="Fadida Junaedy's Photo"
             className="w-12 aspect-square object-cover rounded-lg overflow-hidden"
           />
@@ -15,7 +15,7 @@ const Header = () => {
             <p className="text-[var(--color-white)] font-semibold">
               Fadida Junaedy
             </p>
-            <p>Full Stack Web Developer</p>
+            <p>QA / Web Developer</p>
           </div>
         </div>
         <nav className="flex items-center gap-6">
