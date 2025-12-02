@@ -5,9 +5,13 @@
     "type": "On Site",
     "period": "04/2025 - Now",
     "location": "Central Jakarta, DKI Jakarta",
-    "role": "Software Quality Assurance Tester",
+    "role": "Sytem Integration Tester",
     "description": null,
-    "achievements": [],
+    "achievements": [
+      "Performed System Integration Testing (SIT) to ensure system quality and functionality prior to implementation.",
+      "Coordinated with Users through Test Management Planning (TMP) to discuss the background, scope, methodology, and testing schedule.",
+      "Prepared and circulated Testing Report as of]icial documentation for user validation and approval."
+    ],
     "tech_stack": ["Manual Testing", "Regression Testing", "API Testing"]
   },
   {
@@ -19,10 +23,9 @@
     "role": "Full Stack Web Developer",
     "description": null,
     "achievements": [
-      "Reduced code complexity and improved maintainability, resulting in fewer bugs and faster feature development, by migrating the website from Laravel to React.js and implementing a modular architecture.",
-      "Increased website performance score from 49% to 84% (Lighthouse Insights) by applying lazy loading, image compression, and code optimization techniques.",
-      "Ensured seamless integration between front-end and back-end systems, reducing communication errors and improving response time, by developing and implementing RESTful APIs using Node.js (Express) and MySQL.",
-      " Automated previously manual HR processes, significantly saving time and minimizing human errors, by building a web-based Human Resource Information System (HRIS)."
+      "Rebuilt the website interface using React.js with a modular, reusable component-based architecture.",
+      "Improved website performance from 49% to 84% (Lighthouse Insights) by implementing lazy loading, image compression, and code optimization.",
+      "Developed and implemented RESTful APIs using Node.js (Express) and MySQL to ensure seamless integration between front-end and back-end systems."
     ],
     "tech_stack": [
       "HTML",
@@ -45,8 +48,8 @@
     "role": "Front End Web Developer",
     "description": null,
     "achievements": [
-      "Integrated APIs with efficient and error-minimized data flow, through collaboration with backend developers to understand API structures, align data requirements, and resolve integration challenges.",
-      " Accelerated the data collection process for assessors, by improving efficiency and ease of use through the development of a preliminary assessment application."
+      "Developing web interfaces and collaborating with backend developers to ensure ef]icient and reliable API integration.",
+      "Helping assessors collect data more ef]iciently by developing an initial assessment application."
     ],
     "tech_stack": [
       "HTML",
