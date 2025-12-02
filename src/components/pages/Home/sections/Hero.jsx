@@ -2,27 +2,21 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import contacts from "../../../../datas/json/contacts.json";
 import links from "../../../../datas/json/links.json";
 import PartyPopper from "../../../../assets/images/party-popper.webp";
+import Wave from "../../../../assets/images/wave.webp";
 
 const Hero = () => {
   return (
     <section>
       <div className="md:min-h-screen container py-12 md:pt-48 md:pb-12">
         <h2 className="flex items-center gap-4 mb-4 md:mb-8">
-          Welcome{" "}
+          Welcome
           <img
-            src={PartyPopper}
+            src={Wave}
             className="w-6 -translate-y-1 md:w-12 md:-translate-y-3"
           />
         </h2>
         <p>
-          Hi, I'm Junaedy, Bachelor of Computer Science in Informatics
-          Engineering, currently working as a{" "}
-          <span className="underline text-white">
-            Software Quality Assurance Tester
-          </span>{" "}
-          in the banking sector (Bank Syariah Indonesia), with a background as a
-          Full Stack Web Developer. I am now learning Python to pursue a career
-          path as a QA Automation Engineer.
+          Hi, I'm Fadida Junaedy, Bachelor of Computer Science in Information Technology with a background in web development and software testing. Currently working as a Quality Assurance Tester in the banking sector, focusing on system integration testing and digital product quality.
         </p>
 
         <h2 className="mt-6 md:mt-12 mb-3 md:mb-6">Contact</h2>
